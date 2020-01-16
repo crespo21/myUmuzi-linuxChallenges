@@ -1,0 +1,59 @@
+1. recruit@admin1-ThinkCentre-M72e:~$ find -iname '*.pdf'
+
+****** RESULTS!!!!!!!*****
+
+./Documents/Path definition by The Linux Information Project (LINFO).pdf
+./Documents/10 Useful 'locate' Command Practical Examples for Linux Newbies.pdf
+./Documents/What is standard output_ -- definition by The Linux Information Project (LINFO).pdf
+recruit@admin1-ThinkCentre-M72e:~$ find -iname '.pdf'
+recruit@admin1-ThinkCentre-M72e:~$ find -iname *.pdf
+./Documents/Path definition by The Linux Information Project (LINFO).pdf
+./Documents/10 Useful 'locate' Command Practical Examples for Linux Newbies.pdf
+./Documents/What is standard output_ -- definition by The Linux Information Project (LINFO).pdf
+
+2.recruit@admin1-ThinkCentre-M72e:~$ find ./Documents/ -name "*.pdf" -exec cp {} ./Downloads \;
+
+**** RESULTS!!!!! ********
+
+recruit@admin1-ThinkCentre-M72e:~$ cd Downloads
+recruit@admin1-ThinkCentre-M72e:~/Downloads$ ls
+"10 Useful 'locate' Command Practical Examples for Linux Newbies.pdf"
+'An Introduction to Linux Mint 18.2.mp4'
+ code_1.41.1-1576681836_amd64.deb
+ english_18.0.odt
+ google-chrome-stable_current_amd64.deb
+'java-1.8.0-openjdk-1.8.0.232-3.b09.redhat.windows.x86_64 (1).zip'
+ java-1.8.0-openjdk-1.8.0.232-3.b09.redhat.windows.x86_64.zip
+'Linux-Mac Terminal Tutorial- How To Use The find Command.mp4'
+'Path definition by The Linux Information Project (LINFO).pdf'
+'slack-desktop-4.2.0-amd64 (1).deb'
+ slack-desktop-4.2.0-amd64.deb
+ vscjava.vscode-java-pack-0.8.1.vsix
+'What is standard output_ -- definition by The Linux Information Project (LINFO).pdf'
+
+
+
+
+
+
+
+
+
+
+
+3. recruit@admin1-ThinkCentre-M72e:~$ find . -maxdepth 1 newermt "2020-01-16"
+
+**** RESULTS!!!!! ********
+
+
+find: paths must precede expression: `newermt'
+recruit@admin1-ThinkCentre-M72e:~$ find . -maxdepth 1 -newermt "2020-01-16"
+.
+./Desktop
+./.xsession-errors
+./.ICEauthority
+./.bash_history
+./.Xauthority
+./pdf_results.md
+./Downloads
+./snap

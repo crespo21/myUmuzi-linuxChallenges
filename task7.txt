@@ -1,0 +1,28 @@
+1. recruit@admin1-ThinkCentre-M72e:~$ nano my_bio.md 
+
+**** RESULTS!!!!! ********
+
+
+recruit@admin1-ThinkCentre-M72e:~$ ls
+ Desktop     folderchoice.md                          ideaIC-2019.1-jbr11.tar.gz   my_files         Public      Videos
+ Documents   google-chrome-stable_current_amd64.deb   Music                       '[option].save'   snap        workspace
+ Downloads   idea-IC-191.6183.87                      my_bio.md                    Pictures         Templates
+
+
+2.   ^X to exit nano text editor followed by the 'Enter' key
+
+**** RESULTS!!!!! ********
+
+
+
+ recruit@admin1-ThinkCentre-M72e:~$ cat my_bio.md
+nano my_bio.md
+
+
+3. recruit@admin1-ThinkCentre-M72e:~$ mkdir my_files
+recruit@admin1-ThinkCentre-M72e:~$ mv my_bio.md my_files
+
+**** RESULTS!!!!! ********
+
+recruit@admin1-ThinkCentre-M72e:~/my_files$ ls
+my_bio.md

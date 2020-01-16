@@ -1,0 +1,47 @@
+1. recruit@admin1-ThinkCentre-M72e:~/workspace$
+ touch umuzi.md recruits.md cohort.md
+
+
+2. recruit@admin1-ThinkCentre-M72e:~/workspace$ vim umuzi.md
+recruit@admin1-ThinkCentre-M72e:~/workspace$ vim recruits.md
+recruit@admin1-ThinkCentre-M72e:~/workspace$ vim cohort.md
+
+
+
+3.recruit@admin1-ThinkCentre-M72e:~/workspace$ cat umuzi.md
+  recruits.md cohort.md
+
+**** RESULTS!!!!! ********
+
+
+   Howdy,
+   Having great day?
+   Stay focused
+
+
+4. recruit@admin1-ThinkCentre-M72e:~/workspace$ cat umuzi.md recruits.md cohort.md >> summary.md
+
+
+**** RESULTS!!!!! ********
+
+
+   recruit@admin1-ThinkCentre-M72e:~/workspace$ cat summary.md
+   Howdy,
+   Having great day?
+   Stay focused
+
+
+5. recruit@admin1-ThinkCentre-M72e:~/workspace$ echo "The End" >>
+    summary.md
+
+**** RESULTS!!!!! ********
+
+
+   recruit@admin1-ThinkCentre-M72e:~/workspace$ cat summary.md
+  Howdy,
+  Having great day?
+  Stay focused
+  The End
+
+
+ 

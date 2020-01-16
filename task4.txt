@@ -1,0 +1,18 @@
+1. recruit@admin1-ThinkCentre-M72e:~/workspace$ locate umuzi
+  
+  **** RESULTS!!!!! ********
+
+  
+    /home/recruit/workspace/.umuzi.md.swp
+  
+      /home/recruit/workspace/umuzi.md
+
+
+2. recruit@admin1-ThinkCentre-M72e:~/workspace$ locate umuzi > search_results.md
+   
+   
+   **** RESULTS!!!!! ********
+
+   recruit@admin1-ThinkCentre-M72e:~/workspace$ cat search_results.md
+    /home/recruit/workspace/.umuzi.md.swp
+      /home/recruit/workspace/umuzi.md

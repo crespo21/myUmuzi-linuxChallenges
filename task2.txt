@@ -1,0 +1,36 @@
+recruit@admin1-ThinkCentre-M72e:~/workspace$ touch exercise.mdrecruit@admin1-ThinkCentre-M72e:~/workspace$ ls
+CHANGELOG.md  exercise.md  README.md
+
+recruit@admin1-ThinkCentre-M72e:~/workspace$ mv exercise.md /tmp
+
+**** RESULTS!!!!! ********
+
+
+recruit@admin1-ThinkCentre-M72e:~/workspace$ ls /tmp
+ config-err-gNTfXo
+ exercise.md
+ mintUpdate
+ net-export
+'Slack Crashes'
+ ssh-Kl6xoB6oB8wQ
+ systemd-private-98c5600453614b14bb182d02878032ec-ntp.service-poCeZN
+ systemd-private-98c5600453614b14bb182d02878032ec-rtkit-daemon.service-RTtQvA
+ systemd-private-98c5600453614b14bb182d02878032ec-systemd-resolved.service-t05WO5
+'VSCode Crashes'
+
+recruit@admin1-ThinkCentre-M72e:~/workspace$ rm /tmp/exercise.md
+
+**** RESULTS!!!!! ********
+
+
+recruit@admin1-ThinkCentre-M72e:~/workspace$ ls /tmp
+ config-err-gNTfXo
+ mintUpdate
+ net-export
+'Slack Crashes'
+ ssh-Kl6xoB6oB8wQ
+ systemd-private-98c5600453614b14bb182d02878032ec-ntp.service-poCeZN
+ systemd-private-98c5600453614b14bb182d02878032ec-rtkit-daemon.service-RTtQvA
+ systemd-private-98c5600453614b14bb182d02878032ec-systemd-resolved.service-t05WO5
+'VSCode Crashes'
+recruit@admin1-ThinkCentre-M72e:~/workspace$ 

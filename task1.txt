@@ -1,0 +1,53 @@
+ 1. recruit@admin1-ThinkCentre-M72e:~$ ls
+
+
+  **** RESULTS!!!!! ********
+
+ 
+ ls - List all of the contents of a specified directory.
+     it means if no directory specififed
+      it's going to use the current directory.
+
+
+2.  recruit@admin1-ThinkCentre-M72e:~$ pwd
+
+       **** RESULTS!!!!! ********
+
+
+ pwd - shows the present working directory 
+     for the command line terminal. it means you get to keep
+        track of where you are in the system. 
+
+
+3. recruit@admin1-ThinkCentre-M72e:~$ ls
+Desktop                                 Music
+Documents                               Pictures
+Downloads                               Public
+google-chrome-stable_current_amd64.deb  Templates
+idea-IC-191.6183.87                     Videos
+ideaIC-2019.1-jbr11.tar.gz
+recruit@admin1-ThinkCentre-M72e:~$ mkdir workspace
+recruit@admin1-ThinkCentre-M72e:~$ cd workspace
+
+
+4. recruit@admin1-ThinkCentre-M72e:~/workspace$ ls
+  recruit@admin1-ThinkCentre-M72e:~/workspace$ 
+
+   the present working directory named "workspace"
+    in the command line console. 
+ 
+  it means, Everything that we do
+   from here on, will be stored inside the "workspace" directory
+   unless otherwise we remove the "workspace" directory.
+
+
+5. recruit@admin1-ThinkCentre-M72e:~/workspace$ touch README.md
+   recruit@admin1-ThinkCentre-M72e:~/workspace$ ls
+    README.md
+
+
+6. recruit@admin1-ThinkCentre-M72e:~/workspace$ cp README.md 
+   CHANGELOG.md
+   recruit@admin1-ThinkCentre-M72e:~/workspace$ ls
+   CHANGELOG.md  README.md
+
